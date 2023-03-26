@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"Guess My Number" by Aeldro</title>
+    <link rel="stylesheet" href="data/style.css">
+    <link rel="icon"
+        href="https://png.pngtree.com/png-vector/20190114/ourmid/pngtree-vector-video-game-icon-png-image_313030.jpg">
+</head>
+
+<body>
+    <div class="blocPage">
+        <header>
+            <h1>Guess My Number</h1>
+            <h2>(mini-jeu développé par Aeldro)</h2>
+            <hr>
+            <img src="http://pngimg.com/uploads/star/star_PNG41474.png" alt="">
+            <p class="ratingText">T'as aimé ce jeu? N'hésite pas ! Met 5 étoiles !</p>
+            <button class="normalButton" onclick="rating(1)"><img src="http://pngimg.com/uploads/star/star_PNG41474.png"
+                    alt=""></button>
+            <button class="normalButton" onclick="rating(2)"><img src="http://pngimg.com/uploads/star/star_PNG41474.png"
+                    alt=""><img src="http://pngimg.com/uploads/star/star_PNG41474.png" alt=""></button>
+            <button class="normalButton" onclick="rating(3)"><img src="http://pngimg.com/uploads/star/star_PNG41474.png"
+                    alt=""><img src="http://pngimg.com/uploads/star/star_PNG41474.png" alt=""><img
+                    src="http://pngimg.com/uploads/star/star_PNG41474.png" alt=""></button>
+            <button class="normalButton" onclick="rating(4)"><img src="http://pngimg.com/uploads/star/star_PNG41474.png"
+                    alt=""><img src="http://pngimg.com/uploads/star/star_PNG41474.png" alt=""><img
+                    src="http://pngimg.com/uploads/star/star_PNG41474.png" alt=""><img
+                    src="http://pngimg.com/uploads/star/star_PNG41474.png" alt=""></button><br>
+            <button class="trueButton" onclick="rating(5)"><img src="http://pngimg.com/uploads/star/star_PNG41474.png"
+                    alt=""><img src="http://pngimg.com/uploads/star/star_PNG41474.png" alt=""><img
+                    src="http://pngimg.com/uploads/star/star_PNG41474.png" alt=""><img
+                    src="http://pngimg.com/uploads/star/star_PNG41474.png" alt=""><img
+                    src="http://pngimg.com/uploads/star/star_PNG41474.png" alt=""></button>
+        </header>
+        <main>
+            <p class="normalParagraph">"Guess My Number" est un mini-jeu développé en JavaScript par Aeldro. Vous
+                choisissez
+                un nombre max, puis le navigateur génère automatiquement un nombre aléatoire compris entre 1 et le
+                nombre
+                choisit. Vous n'avez plus qu'à trouver le nombre généré en moins de tentatives possible. Mais gare à
+                vous si
+                vous décidez de rentrer autre chose qu'un nombre valide...
+            </p>
+            <button class="newGame" onclick="newGame()">Relancer une partie</button>
+            <hr>
+        </main>
+        <footer>
+            <p>© 2021 Aeldro</p>
+        </footer>
+    </div>
+
+    <script src="data/script.js"></script>
+</body>
+
+</html>

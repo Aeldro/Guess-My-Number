@@ -1,0 +1,80 @@
+/* ********** PAGE ********* */
+body {
+    background: url("https://wallpaper.dog/large/5549638.jpg") fixed;
+    color: white;
+    text-align: center;
+    font-family: verdana, sans-serif;
+    text-shadow: 1px 1px 3px black, -1px -1px 3px black, 1px -1px 3px black, -1px 1px 3px black;
+}
+
+.blocPage {
+    width: 80%;
+    margin: auto;
+}
+
+/* ********** TEXTES ********** */
+
+h1 {
+    font-size: 5em;
+    margin: 20px;
+}
+
+.ratingText {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.normalParagraph {
+    font-size: 1.1em;
+    text-align: left;
+}
+
+/* ********** BOUTONS ********** */
+
+.normalButton {
+    width: 15%;
+    height: 50px;
+    font-size: 2em;
+    border-radius: 10px;
+}
+
+.trueButton {
+    width: 70%;
+    height: 200px;
+    font-size: 5em;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+button {
+    margin: 10px;
+    background-color: #1d3557;
+    transition: 0.35s ease-in-out;
+}
+
+.newGame {
+    background-color: #457b9d;
+    width: 25%;
+    height: 50px;
+    color: white;
+    font-size: 1.8em;
+    font-weight: bold;
+    font-family: verdana, sans-serif;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.newGame:hover {
+    box-shadow: 0 0 20px white;
+}
+
+/* ********** AUTRE ********** */
+
+img {
+    width: 10%;
+}
